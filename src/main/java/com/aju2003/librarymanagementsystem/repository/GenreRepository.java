@@ -1,10 +1,9 @@
 package com.aju2003.librarymanagementsystem.repository;
 
-import com.aju2003.librarymanagementsystem.entity.AuthorInfo;
+import com.aju2003.librarymanagementsystem.entity.Genre;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-
 @Repository
-public interface AuthorInfoRepository extends JpaRepository<AuthorInfo, Long> {
+public interface GenreRepository extends JpaRepository<Genre, Long> {
 }
