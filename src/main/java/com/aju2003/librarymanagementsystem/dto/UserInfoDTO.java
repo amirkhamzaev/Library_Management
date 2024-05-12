@@ -1,15 +1,14 @@
 package com.aju2003.librarymanagementsystem.dto;
 
 import com.aju2003.librarymanagementsystem.entity.enums.UserRole;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
-@Data
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserInfoDTO {
     private Long id;
     private String name;

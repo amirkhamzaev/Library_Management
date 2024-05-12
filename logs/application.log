@@ -1038,3 +1038,170 @@ Consider defining a bean of type 'com.aju2003.librarymanagementsystem.service.Au
 2024-05-02T20:44:48.193+05:00  INFO 8168 --- [library-management-system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-02T20:44:48.467+05:00  INFO 8168 --- [library-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-02T20:44:48.475+05:00  INFO 8168 --- [library-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-12T17:23:44.215+05:00  INFO 20816 --- [library-management-system] [Test worker] .LibraryManagementSystemApplicationTests : Starting LibraryManagementSystemApplicationTests using Java 19.0.2 with PID 20816 (started by jakhongir in /home/jakhongir/IdeaProjects/Library_Management)
+2024-05-12T17:23:44.218+05:00  INFO 20816 --- [library-management-system] [Test worker] .LibraryManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-05-12T17:23:45.011+05:00  INFO 20816 --- [library-management-system] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12T17:23:45.082+05:00  INFO 20816 --- [library-management-system] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2024-05-12T17:23:45.530+05:00  INFO 20816 --- [library-management-system] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12T17:23:45.581+05:00  INFO 20816 --- [library-management-system] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-12T17:23:45.614+05:00  INFO 20816 --- [library-management-system] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-12T17:23:45.887+05:00  INFO 20816 --- [library-management-system] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-12T17:23:45.913+05:00  INFO 20816 --- [library-management-system] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-12T17:23:46.499+05:00  INFO 20816 --- [library-management-system] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@671da0f9
+2024-05-12T17:23:46.503+05:00  INFO 20816 --- [library-management-system] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-12T17:23:46.564+05:00  WARN 20816 --- [library-management-system] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-12T17:23:47.834+05:00  INFO 20816 --- [library-management-system] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-12T17:23:47.857+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.858+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_authors" does not exist, skipping
+2024-05-12T17:23:47.859+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.859+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_authors" does not exist, skipping
+2024-05-12T17:23:47.861+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.861+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_genres" does not exist, skipping
+2024-05-12T17:23:47.862+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.863+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_genres" does not exist, skipping
+2024-05-12T17:23:47.864+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.865+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_liked_books" does not exist, skipping
+2024-05-12T17:23:47.866+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.867+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_liked_books" does not exist, skipping
+2024-05-12T17:23:47.869+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.870+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_user_roles" does not exist, skipping
+2024-05-12T17:23:47.871+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.871+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "author" does not exist, skipping
+2024-05-12T17:23:47.872+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.873+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book" does not exist, skipping
+2024-05-12T17:23:47.874+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.874+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book_authors" does not exist, skipping
+2024-05-12T17:23:47.875+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.875+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book_genres" does not exist, skipping
+2024-05-12T17:23:47.877+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.877+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "genre" does not exist, skipping
+2024-05-12T17:23:47.879+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.879+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info" does not exist, skipping
+2024-05-12T17:23:47.880+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.880+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info_liked_books" does not exist, skipping
+2024-05-12T17:23:47.882+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:23:47.882+05:00  WARN 20816 --- [library-management-system] [Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info_user_roles" does not exist, skipping
+2024-05-12T17:23:47.957+05:00  INFO 20816 --- [library-management-system] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12T17:23:48.443+05:00  WARN 20816 --- [library-management-system] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-12T17:23:49.677+05:00  INFO 20816 --- [library-management-system] [Test worker] .LibraryManagementSystemApplicationTests : Started LibraryManagementSystemApplicationTests in 5.781 seconds (process running for 7.441)
+2024-05-12T17:23:50.206+05:00  INFO 20816 --- [library-management-system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12T17:23:50.242+05:00  INFO 20816 --- [library-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-12T17:23:50.255+05:00  INFO 20816 --- [library-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-12T17:26:46.948+05:00  INFO 24408 --- [library-management-system] [restartedMain] c.a.l.LibraryManagementSystemApplication : Starting LibraryManagementSystemApplication using Java 19.0.2 with PID 24408 (/home/jakhongir/IdeaProjects/Library_Management/build/classes/java/main started by jakhongir in /home/jakhongir/IdeaProjects/Library_Management)
+2024-05-12T17:26:46.953+05:00  INFO 24408 --- [library-management-system] [restartedMain] c.a.l.LibraryManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-12T17:26:47.038+05:00  INFO 24408 --- [library-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-12T17:26:47.039+05:00  INFO 24408 --- [library-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-12T17:26:48.378+05:00  INFO 24408 --- [library-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12T17:26:48.480+05:00  INFO 24408 --- [library-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2024-05-12T17:26:49.352+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-12T17:26:49.370+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-12T17:26:49.371+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-12T17:26:49.433+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-12T17:26:49.433+05:00  INFO 24408 --- [library-management-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2393 ms
+2024-05-12T17:26:49.663+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12T17:26:49.753+05:00  INFO 24408 --- [library-management-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-12T17:26:49.803+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-12T17:26:50.263+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-12T17:26:50.310+05:00  INFO 24408 --- [library-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-12T17:26:50.839+05:00  INFO 24408 --- [library-management-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e6d6442
+2024-05-12T17:26:50.843+05:00  INFO 24408 --- [library-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-12T17:26:50.896+05:00  WARN 24408 --- [library-management-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-12T17:26:52.375+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-12T17:26:52.400+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.401+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_authors" does not exist, skipping
+2024-05-12T17:26:52.402+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.402+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_authors" does not exist, skipping
+2024-05-12T17:26:52.404+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.404+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_genres" does not exist, skipping
+2024-05-12T17:26:52.405+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.405+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_genres" does not exist, skipping
+2024-05-12T17:26:52.406+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.407+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_liked_books" does not exist, skipping
+2024-05-12T17:26:52.408+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.408+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_liked_books" does not exist, skipping
+2024-05-12T17:26:52.409+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.410+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_user_roles" does not exist, skipping
+2024-05-12T17:26:52.411+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.411+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "author" does not exist, skipping
+2024-05-12T17:26:52.412+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.413+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book" does not exist, skipping
+2024-05-12T17:26:52.414+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.414+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book_authors" does not exist, skipping
+2024-05-12T17:26:52.415+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.415+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book_genres" does not exist, skipping
+2024-05-12T17:26:52.416+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.417+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "genre" does not exist, skipping
+2024-05-12T17:26:52.418+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.418+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info" does not exist, skipping
+2024-05-12T17:26:52.419+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.422+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info_liked_books" does not exist, skipping
+2024-05-12T17:26:52.423+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:26:52.424+05:00  WARN 24408 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info_user_roles" does not exist, skipping
+2024-05-12T17:26:52.481+05:00  INFO 24408 --- [library-management-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12T17:26:52.905+05:00  WARN 24408 --- [library-management-system] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-12T17:26:53.577+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-12T17:26:53.609+05:00  INFO 24408 --- [library-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-12T17:26:53.618+05:00  INFO 24408 --- [library-management-system] [restartedMain] c.a.l.LibraryManagementSystemApplication : Started LibraryManagementSystemApplication in 7.257 seconds (process running for 8.48)
+2024-05-12T17:27:10.714+05:00  INFO 24408 --- [library-management-system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-12T17:27:10.715+05:00  INFO 24408 --- [library-management-system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-12T17:27:10.717+05:00  INFO 24408 --- [library-management-system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-12T17:27:11.960+05:00  INFO 24408 --- [library-management-system] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 602 ms
+2024-05-12T17:27:28.852+05:00  WARN 24408 --- [library-management-system] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.aju2003.librarymanagementsystem.entity.Book` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('string')]
+2024-05-12T17:32:42.433+05:00  INFO 24408 --- [library-management-system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12T17:32:42.515+05:00  INFO 24408 --- [library-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-12T17:32:42.528+05:00  INFO 24408 --- [library-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-12T17:34:31.253+05:00  INFO 27833 --- [library-management-system] [restartedMain] c.a.l.LibraryManagementSystemApplication : Starting LibraryManagementSystemApplication using Java 19.0.2 with PID 27833 (/home/jakhongir/IdeaProjects/Library_Management/build/classes/java/main started by jakhongir in /home/jakhongir/IdeaProjects/Library_Management)
+2024-05-12T17:34:31.254+05:00  INFO 27833 --- [library-management-system] [restartedMain] c.a.l.LibraryManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-12T17:34:31.293+05:00  INFO 27833 --- [library-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-12T17:34:31.293+05:00  INFO 27833 --- [library-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-12T17:34:32.099+05:00  INFO 27833 --- [library-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12T17:34:32.164+05:00  INFO 27833 --- [library-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2024-05-12T17:34:32.701+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-12T17:34:32.713+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-12T17:34:32.714+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-12T17:34:32.754+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-12T17:34:32.754+05:00  INFO 27833 --- [library-management-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1460 ms
+2024-05-12T17:34:32.897+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12T17:34:32.966+05:00  INFO 27833 --- [library-management-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-12T17:34:32.997+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-12T17:34:33.213+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-12T17:34:33.240+05:00  INFO 27833 --- [library-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-12T17:34:33.508+05:00  INFO 27833 --- [library-management-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fa67471
+2024-05-12T17:34:33.510+05:00  INFO 27833 --- [library-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-12T17:34:33.538+05:00  WARN 27833 --- [library-management-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-12T17:34:34.510+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-12T17:34:34.531+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.531+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_authors" does not exist, skipping
+2024-05-12T17:34:34.532+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.532+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_authors" does not exist, skipping
+2024-05-12T17:34:34.533+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.534+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_genres" does not exist, skipping
+2024-05-12T17:34:34.535+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.535+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "book_genres" does not exist, skipping
+2024-05-12T17:34:34.536+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.536+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_liked_books" does not exist, skipping
+2024-05-12T17:34:34.538+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.538+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_liked_books" does not exist, skipping
+2024-05-12T17:34:34.539+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.539+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "user_info_user_roles" does not exist, skipping
+2024-05-12T17:34:34.541+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.542+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "author" does not exist, skipping
+2024-05-12T17:34:34.543+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.543+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book" does not exist, skipping
+2024-05-12T17:34:34.544+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.545+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book_authors" does not exist, skipping
+2024-05-12T17:34:34.546+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.546+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "book_genres" does not exist, skipping
+2024-05-12T17:34:34.551+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.551+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "genre" does not exist, skipping
+2024-05-12T17:34:34.552+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.553+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info" does not exist, skipping
+2024-05-12T17:34:34.554+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.554+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info_liked_books" does not exist, skipping
+2024-05-12T17:34:34.555+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-05-12T17:34:34.556+05:00  WARN 27833 --- [library-management-system] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "user_info_user_roles" does not exist, skipping
+2024-05-12T17:34:34.607+05:00  INFO 27833 --- [library-management-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12T17:34:35.051+05:00  WARN 27833 --- [library-management-system] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-12T17:34:35.786+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-12T17:34:35.836+05:00  INFO 27833 --- [library-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-12T17:34:35.846+05:00  INFO 27833 --- [library-management-system] [restartedMain] c.a.l.LibraryManagementSystemApplication : Started LibraryManagementSystemApplication in 4.99 seconds (process running for 5.709)

@@ -1,14 +1,13 @@
 package com.aju2003.librarymanagementsystem.dto;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
-@Data
-@Setter
 @Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class AuthorDTO {
     private Long id;
     private String fullName;
