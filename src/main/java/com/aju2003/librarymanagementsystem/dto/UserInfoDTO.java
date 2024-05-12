@@ -1,7 +1,10 @@
 package com.aju2003.librarymanagementsystem.dto;
 
 import com.aju2003.librarymanagementsystem.entity.enums.UserRole;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 

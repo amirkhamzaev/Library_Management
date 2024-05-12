@@ -34,7 +34,7 @@ public class BookController {
     @GetMapping("/{id}")
     public ResponseEntity<?> getBookById(@PathVariable Long id) {
         try {
-             BookDTO bookDTO = service.getBookById(id);
+            BookDTO bookDTO = service.getBookById(id);
             return new ResponseEntity<>(bookDTO, HttpStatus.OK);
         } catch (EntityNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
